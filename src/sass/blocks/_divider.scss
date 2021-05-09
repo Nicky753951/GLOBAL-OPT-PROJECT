@@ -1,0 +1,18 @@
+.divider {
+		margin: 38px auto 0 auto;
+		width: 809px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;	
+		&__circle {
+			width:10px;
+			height:10px;
+			background-color: #fff;
+			border-radius:100%;
+		}
+		&__line {
+			width: 390px;
+			height: 1px;
+			background-color: #fff;
+		}
+	}

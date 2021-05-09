@@ -1,0 +1,70 @@
+.header {
+		position: relative;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		&__logo {
+		width: 96px;
+		height:100px;
+		cursor: pointer;
+			img {
+				max-width: auto;
+			}
+	    }
+
+	    &__contacts {
+	    	display: flex;
+	    	flex-direction:column;
+	    	align-items: flex-end;
+	    }
+
+	    &__text {
+	    	margin: 0;
+	    	font-size: 14px;
+			line-height: 24px;
+			font-weight: 300;
+			color: #ffffff;
+	    }
+
+	    &__tel {
+	    	font-size: 19px;
+			line-height: 24px;
+			font-weight: 700;
+			color: #ffffff;
+			&:hover{
+				text-decoration: none;
+				color: #fff;
+			}
+	    }
+	}
+
+	.nav {
+		display: flex;
+		list-style-type: none;
+		width: 600px;
+		justify-content: space-between;
+		align-items: center;
+		a {
+		text-decoration: none;
+		color: white;
+			&:hover {
+				color: $main-color;
+				transition:0.2s all;
+				text-decoration: underline;
+			}
+		}
+		&__link {
+			text-align: center;
+			cursor: pointer;
+			font-size: 15px;
+			line-height: 16px;
+			font-weight: 400;
+			color: #fff;
+			border-right: 1px dotted #fff;
+			padding-right: 12px;
+			&:last-child{
+				border-right:none;
+			}
+		}
+	}

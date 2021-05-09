@@ -1,0 +1,16 @@
+@media (max-width: 992px){
+	.delivery{
+	   	&__wrapper {
+	   		justify-content: space-around;
+	   	}
+   }
+}
+
+@media (max-width: 768px){
+	.delivery{
+	   	&__wrapper {
+	   		justify-content: center;
+	   		flex-direction: column;
+	   	}
+   }
+}

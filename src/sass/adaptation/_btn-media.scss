@@ -1,0 +1,41 @@
+@media (max-width: 1200px){
+	.promo {
+		.header {
+			.btn {
+				width: 145px;
+			}
+		}
+	}			
+}
+
+
+@media (max-width: 992px){
+	.promo {
+		.header {
+			.btn {
+				width: 125px;
+			}
+		}	
+	}			
+}
+
+@media (max-width: 768px){
+	.promo {	
+		.header {
+			.btn {
+			width: 160px;
+			}
+		}	
+	}	
+}
+
+@media (max-width:576px){
+    .promo {
+    	.header {
+			.btn {
+				width: 120px;
+				font-size: 10px;
+			}
+    	}
+    }
+}

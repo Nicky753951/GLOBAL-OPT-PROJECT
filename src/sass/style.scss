@@ -1,0 +1,39 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'base/variables';
+@import "libs/font";
+@import "blocks/promo";
+@import "blocks/advantages";
+@import "blocks/menu";
+@import "blocks/title";
+@import "blocks/btn";
+@import "blocks/work";
+@import "blocks/agentInChina";
+@import "blocks/divider";
+@import "blocks/fixedMenu";
+@import "blocks/header";
+@import "blocks/delivery";
+@import "adaptation/promo-media";
+@import "adaptation/advantages-media";
+@import "adaptation/work-media";
+@import "adaptation/fixedMenu-media";
+@import "adaptation/title-media";
+@import "adaptation/divider-media";
+@import "adaptation/btn-media";
+@import "adaptation/header-media";
+@import "adaptation/container-media";
+@import "adaptation/delivery-media";
+
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container  {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+
+

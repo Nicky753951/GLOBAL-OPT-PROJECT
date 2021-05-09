@@ -1,0 +1,8 @@
+@media (max-width: 768px){
+	.fixedMenu {
+		display: block;
+		&__hamburger {
+		display: flex;
+		}
+	}	
+}

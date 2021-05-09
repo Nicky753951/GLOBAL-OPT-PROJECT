@@ -1,0 +1,35 @@
+@media (max-width: 1200px){
+	.divider {
+		width: 645px;
+		&__line {
+			width: 310px;
+		}
+	}			
+}
+
+@media (max-width: 992px){
+	.divider {	
+		width: 489px;
+		&__line {
+			width: 233px;
+		}
+	}		
+}
+
+@media (max-width: 768px){
+	.divider {
+	width: 360px;
+		&__line {
+		width: 169px;
+		}
+	}	
+}
+
+@media (max-width:576px){
+	.divider {		
+	width: 276px;
+		&__line {
+			width: 127px;
+		}
+	}
+}
