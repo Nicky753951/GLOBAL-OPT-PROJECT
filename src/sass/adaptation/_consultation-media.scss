@@ -1,0 +1,39 @@
+@media (max-width: 1200px){
+	.form-consultation{
+		max-width: 960px;
+	}
+}
+
+@media (max-width: 992px){
+	.form-consultation{
+		max-width: 720px;
+		height:auto;
+		input {
+		width: 220px;
+		font-size: 13px;
+		}	
+	}
+
+}
+
+@media (max-width: 768px){
+	.form-consultation{
+		max-width: 540px;
+		input {
+		width: 165px;
+		padding-left:13px;
+		}	
+	}
+}
+
+@media (max-width:576px){
+	.form-consultation{
+        max-width: 310px;
+        min-height: 300px;
+        padding-left: 30px;
+        input{
+        	width: 250px;
+        	font-size: 14px;
+        }
+	}	
+}	

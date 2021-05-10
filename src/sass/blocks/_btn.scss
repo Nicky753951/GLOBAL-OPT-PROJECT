@@ -10,7 +10,12 @@
 	text-transform: uppercase;
 	color: #fff;
 	text-align: center;
-	outline: none;
+	outline:none;
+	&:hover {
+		transition:all .5s;
+		background-color:rgba(230, 5, 27, .8);
+		outline:none;
+	}
 	&_first {
 		display: block;
 		width: 230px;
@@ -27,5 +32,13 @@
 		bottom: 0;
 		left: 50%;
 		transform: translateX(-50%);
+	}
+
+	&_consultation {
+		position: absolute;
+		width: 180px;
+		bottom: 0;
+		left: 50%;
+		transform:translateX(-50%);
 	}
 }

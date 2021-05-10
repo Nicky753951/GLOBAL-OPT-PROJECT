@@ -4,24 +4,28 @@
 @import "blocks/promo";
 @import "blocks/advantages";
 @import "blocks/menu";
+@import "blocks/consultation";
 @import "blocks/title";
 @import "blocks/btn";
 @import "blocks/work";
-@import "blocks/agentInChina";
+@import "blocks/info-block";
+@import "blocks/info-block2";
 @import "blocks/divider";
-@import "blocks/fixedMenu";
+@import "blocks/fixed-hamburger";
 @import "blocks/header";
-@import "blocks/delivery";
+@import "blocks/price";
 @import "adaptation/promo-media";
 @import "adaptation/advantages-media";
 @import "adaptation/work-media";
-@import "adaptation/fixedMenu-media";
+@import "adaptation/fixed-hamburger-media";
 @import "adaptation/title-media";
 @import "adaptation/divider-media";
 @import "adaptation/btn-media";
 @import "adaptation/header-media";
 @import "adaptation/container-media";
-@import "adaptation/delivery-media";
+@import "adaptation/price-media";
+@import "adaptation/consultation-media";
+
 
 
 * {
@@ -33,6 +37,13 @@
 .container  {
     width: 1140px;
     margin: 0 auto;
+}
+
+.line {
+	width: 148px;
+	height: 1px;
+	background-color: $main-color;
+	margin: 20px auto 0 auto;
 }
 
 

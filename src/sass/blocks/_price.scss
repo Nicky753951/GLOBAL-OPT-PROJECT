@@ -1,4 +1,4 @@
-.delivery {
+.price {
 	padding: 53px 0 55px 0;
 	&__wrapper {
 		display: flex;
@@ -13,13 +13,13 @@
 		margin-top:34px;
 		width: 267px;
 	}
-	&__color {
+	&__header {
 		padding-top: 19px;
 		background-color:#25333c;
 		width: 100%;
 		height: 61px;
 	}
-	&__name {
+	&__form {
 		margin: 0;
 		font-size: 16px;
 		line-height: 23px;
@@ -48,7 +48,7 @@
 		color: #2e2e2e;
 	}
 
-	&__price {
+	&__value {
 		margin-top: 5px;
 		text-align: center;
 		font-size: 28px;
@@ -66,7 +66,7 @@
 		text-align: center;
 	}
 
-	.item {
+	.price-list {
 		display: flex;
 		width: 200%;
 		&_active {

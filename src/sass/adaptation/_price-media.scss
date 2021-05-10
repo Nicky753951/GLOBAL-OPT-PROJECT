@@ -1,5 +1,5 @@
 @media (max-width: 992px){
-	.delivery{
+	.price{
 	   	&__wrapper {
 	   		justify-content: space-around;
 	   	}
@@ -7,7 +7,7 @@
 }
 
 @media (max-width: 768px){
-	.delivery{
+	.price{
 	   	&__wrapper {
 	   		justify-content: center;
 	   		flex-direction: column;

@@ -1,0 +1,14 @@
+.info-block{
+	background: url("../img/bg2.jpg") center center/cover no-repeat;
+	min-height:354px;
+	padding: 58px 0 75px 0;
+	margin: 0 auto;
+
+	&__img {
+		img {
+			display: block;
+			margin: 0 auto;
+			width: auto;
+		}
+	}
+}

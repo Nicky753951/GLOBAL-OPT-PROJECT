@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
 
-const hamburger = document.querySelector('.fixedMenu__hamburger'),
+const hamburger = document.querySelector('.fixed-hamburger__hamburger'),
       menu = document.querySelector('.menu'),
       closeElem = document.querySelector('.menu__close'),
       menuLink = document.querySelectorAll('.menu__link'),

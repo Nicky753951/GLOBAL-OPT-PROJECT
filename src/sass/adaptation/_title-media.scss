@@ -26,6 +26,9 @@
     .title__description_firstScreen{
         font-size: 26px;
     }
+    .title_consultation {
+        font-size: 26px;
+    }
 }
 
 @media (max-width:576px){
@@ -47,5 +50,8 @@
     }
     .title__main {
         text-align: center;
-    }  
+    }
+    .title_consultation {
+        font-size: 24px;
+    } 
 }

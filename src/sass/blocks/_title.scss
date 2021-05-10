@@ -20,6 +20,14 @@
 		color: $main-color;
 	}
 
+	&_consultation{
+		font-size: 28px;
+		line-height: 23px;
+		font-weight: 400;
+		color: #3a3a3a;
+		margin-bottom: 0;
+	}
+
 	&__main {
 		margin: 10px auto 0 auto;
 		text-align: center;
@@ -53,13 +61,6 @@
 		color: #fff;
 		}
 	}
-
-	&__line {
-		width: 148px;
-		height: 1px;
-		background-color: $main-color;
-		margin: 20px auto 0 auto;
-		}
 }
 
 
