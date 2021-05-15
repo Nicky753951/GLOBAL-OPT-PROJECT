@@ -29,12 +29,12 @@
 
 @media (max-width:576px){
     .promo {
-    	&__activities {
+    	&__wrapper {
     		flex-direction: column;
     		align-items: center;
     		width: auto;
     	}
-    	&__activity {
+    	&__block {
     		margin-bottom: 20px;
     		width: 300px;
     	}

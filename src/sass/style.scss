@@ -1,19 +1,24 @@
 @import 'libs/bootstrap-reboot.min';
-@import 'base/variables';
 @import "libs/font";
+@import "libs/slick";
+@import "base/variables";
 @import "blocks/promo";
 @import "blocks/advantages";
 @import "blocks/menu";
 @import "blocks/consultation";
 @import "blocks/title";
+@import "blocks/feedback";
 @import "blocks/btn";
 @import "blocks/work";
+@import "blocks/carousel";
+@import "blocks/scheme";
 @import "blocks/info-block";
 @import "blocks/info-block2";
 @import "blocks/divider";
 @import "blocks/fixed-hamburger";
 @import "blocks/header";
 @import "blocks/price";
+@import "blocks/pageup";
 @import "adaptation/promo-media";
 @import "adaptation/advantages-media";
 @import "adaptation/work-media";
@@ -25,8 +30,7 @@
 @import "adaptation/container-media";
 @import "adaptation/price-media";
 @import "adaptation/consultation-media";
-
-
+@import "adaptation/slider-media";
 
 * {
     font-family: 'Roboto', sans-serif;
@@ -45,6 +49,3 @@
 	background-color: $main-color;
 	margin: 20px auto 0 auto;
 }
-
-
-

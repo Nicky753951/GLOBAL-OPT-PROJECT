@@ -1,0 +1,91 @@
+.carousel {
+  margin-top: 31px;
+  position: relative;
+
+  &__slide {
+    overflow: hidden;
+  }
+
+  &__name {
+    margin: 19px 0 0 0;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+    color: #3a3a3a;
+  }
+
+  &__descr {
+    margin: 19px 0 0 0;
+    text-align: center;
+    font-size: 14.1px;
+    font-weight: 30
+  }
+
+  &__img  {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    width: 114px;
+    height: 114px;
+    img {
+      max-width: 100%;
+      display: block;
+      margin: 0 auto;
+    }
+  }
+}
+
+.slick-slide,
+.slick-active + .slick-active ~ .slick-active{
+  display: block;
+  transform: scale(.7);
+  opacity: 0.5; 
+  transition: all 1s;
+}
+
+.slick-active + .slick-active{
+  transform: scale(1);
+  opacity: 1;
+}
+
+.slick-prev,.slick-next  {
+        z-index: 10;
+        position: absolute;
+        top: 10%;
+        left: 40%;
+        border: none;
+        background-color: white;
+        svg {
+            width: 31px;
+            height: 50px;
+        }
+    }
+.slick-next  {
+    right: 40%;
+    left: auto;
+}
+
+.slick-dots {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+    button {
+    outline: none;
+    margin: 0px 10px;
+    border: none;
+    border-radius:100%;
+    background: $main-color;
+    color: #fff;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    }
+}
+
+.slick-active > button {
+  background-color: #25333c; 
+  transition:all .6s;
+}

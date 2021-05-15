@@ -1,0 +1,12 @@
+@media (max-width: 887px){
+	.slick-slide,
+	.slick-active + .slick-active ~ .slick-active{
+	  display: block;
+	  transform: scale(1);
+	  opacity: 1;
+	}
+
+	.slick-slide {
+		padding: 0 40px;
+	}
+}
