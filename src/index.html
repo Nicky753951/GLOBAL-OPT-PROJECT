@@ -56,7 +56,7 @@
 				<li class="menu__link"><a href="#price">Цены</a></li>
 				<li class="menu__link"><a href="#scheme">Схема работы</a></li>
 				<li class="menu__link"><a href="#feedback">Отзывы</a></li>
-				<li class="menu__link"><a href="#">Контакты</a></li>
+				<li class="menu__link"><a href="#contacts">Контакты</a></li>
 			</ul>
 		</nav>
 		<div class="menu__social">
@@ -103,7 +103,7 @@
 						<li class="navigation__link"><a href="#price">Цены</a></li>
 						<li class="navigation__link"><a href="#scheme">Схема работы</a></li>
 						<li class="navigation__link"><a href="#feedback">Отзывы</a></li>
-						<li class="navigation__link"><a href="#">Контакты</a></li>
+						<li class="navigation__link"><a href="#contacts">Контакты</a></li>
 					</ul>	
 				</nav>
 				
@@ -518,10 +518,45 @@
 
 </section>
 
+<section class="questions">
+	<div class="questions__wrapper">
+		<div class="questions__header">
+			<p class="questions__subtitle">Остались вопросы?</p>
+			<h2 class="questions__descr">Напишите нам!</h2>
+		</div>
+		<form class="questions__form" action="#">
+			<div class="questions__inputs">
+				<input name="name" required placeholder="Ваше имя..." type="text">
+		        <input name="phone"required placeholder="Ваш номер телефона...">
+		        <input name="email"required placeholder="Ваш e-mail..." type="email">
+			</div>
+	        <textarea name="text">Сообщение...</textarea>
+			<button class="btn btn_questions">Отправить заявку</button>
+		</form>
+	</div>
+</section>
+
+<section class="contacts" id="contacts">
+	<div id="map"></div>
+
+	<address class="address">
+		<p class="address__city">г. Москва</p>
+		<p class="address__street">ул. Садовническая, дом 5, офис 4-6
+		700 от м. Новокузнецкая</p>
+		<a class="address__tel" href="tel:+79264230100">Тел: +7 (926) 423 01 00</a>
+		<a class="address__email" href="mailto:info@glopt.ru">info@glopt.ru</a>
+		<div class="box"></div>
+	</address>
+
+</section>
+
 <a href="#up" class="pageup">
    <img src="icons/up.svg" alt="up">
 </a> 
 
+<script async
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAIm4bi98d7nswT1bNCYL8ydB5HTM9Zi_0&callback=initMap">
+</script>
 <script type="text/javascript" src="//code.jquery.com/jquery-3.6.0.min.js"></script>
 <script type="text/javascript" src="js/slick.min.js"></script>
 <script src="js/script.js"></script>

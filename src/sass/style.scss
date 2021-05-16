@@ -8,10 +8,12 @@
 @import "blocks/consultation";
 @import "blocks/title";
 @import "blocks/feedback";
+@import "blocks/questions";
 @import "blocks/btn";
 @import "blocks/work";
 @import "blocks/carousel";
 @import "blocks/scheme";
+@import "blocks/contacts";
 @import "blocks/info-block";
 @import "blocks/info-block2";
 @import "blocks/divider";
@@ -31,6 +33,8 @@
 @import "adaptation/price-media";
 @import "adaptation/consultation-media";
 @import "adaptation/slider-media";
+@import "adaptation/questions-media";
+
 
 * {
     font-family: 'Roboto', sans-serif;

@@ -41,4 +41,10 @@
 		left: 50%;
 		transform:translateX(-50%);
 	}
+
+	&_questions {
+		margin: 16px auto 0 auto;
+		display: block;
+		width: 180px;
+		}
 }
