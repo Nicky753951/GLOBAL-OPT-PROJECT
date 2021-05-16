@@ -1,0 +1,45 @@
+
+
+
+// @media (max-width: 1200px){
+//     .container{
+//         max-width: 960px;
+//     }
+// }
+
+// @media (max-width: 992px){
+//     .container{
+//         max-width: 720px;
+//     }
+// }
+
+@media (max-width: 768px){  
+    .contacts .address {
+    margin-top: 10px;
+    position: relative;
+    background-color: #fff;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 10;
+    width: 310px;
+    height: 158px;
+    padding: 27px 50px 27px 30px;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    }
+
+    .contacts {
+        .address {
+            &:before {
+                content: none;
+            }
+        }
+    }
+}
+
+@media (max-width:576px){
+    .container{
+        max-width:100%;
+    }
+}

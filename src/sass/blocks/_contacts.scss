@@ -6,11 +6,9 @@
 	position: relative;
 
 	.address {
-		position: relative;
+		position: absolute;
 		background-color: #fff;
 		border-radius: 5px;
-		position: absolute;
-		z-index: 10;
 		width: 329px;
 		height: 158px;
 		padding: 27px 50px 27px 30px;

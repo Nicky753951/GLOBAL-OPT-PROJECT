@@ -10,8 +10,10 @@
 @import "blocks/feedback";
 @import "blocks/questions";
 @import "blocks/btn";
+@import "blocks/line";
 @import "blocks/work";
 @import "blocks/carousel";
+@import "blocks/footer";
 @import "blocks/scheme";
 @import "blocks/contacts";
 @import "blocks/info-block";
@@ -20,6 +22,7 @@
 @import "blocks/fixed-hamburger";
 @import "blocks/header";
 @import "blocks/price";
+@import "blocks/policy";
 @import "blocks/pageup";
 @import "adaptation/promo-media";
 @import "adaptation/advantages-media";
@@ -34,6 +37,8 @@
 @import "adaptation/consultation-media";
 @import "adaptation/slider-media";
 @import "adaptation/questions-media";
+@import "adaptation/contacts-media";
+@import "adaptation/footer-media";
 
 
 * {
@@ -47,9 +52,3 @@
     margin: 0 auto;
 }
 
-.line {
-	width: 148px;
-	height: 1px;
-	background-color: $main-color;
-	margin: 20px auto 0 auto;
-}
