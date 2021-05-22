@@ -23,13 +23,6 @@ const hamburger = document.querySelector('.hamburger'),
             hamburger.classList.remove("spanX");
         });
     });
-	// на майбутє,якщо буду робити фіксоване меню для десктопа
-    document.addEventListener("keydown", (e) => {
-	    if (e.code === 'Escape') {
-	        menu.classList.remove('active');
-	        hamburger.classList.remove("spanX");
-	    }
-	});
 
 	function toggleSlide(item) {
     $(item).each(function(i) {
@@ -94,6 +87,69 @@ toggleSlide('.btn_back');
         $("html, body").animate({scrollTop: $(_href).offset().top+"px"});
         return false;
     });
+
+  new WOW().init();
+
+$('[data-modal=consultation]').on('click', function() {
+        $('.overlay, #consultation').fadeIn('slow');
+    });
+    $('.modal__close').on('click', function() {
+        $('.overlay, #consultation, #thanks').fadeOut('slow');
+    });
+
+    $('.button_mini').each(function(i) {
+        $(this).on('click', function() {
+            $('.overlay').fadeIn('slow');
+        });
+    });
+
+$('form').submit(function(e) {
+        e.preventDefault();
+        $.ajax({
+            type: "POST",
+            url: "mailer/smart.php",
+            data: $(this).serialize()
+        }).done(function() {
+            $(this).find("input").val("");
+            $('#consultation, #order').fadeOut();
+            $('.overlay, #thanks').fadeIn('slow');
+
+            $('form').trigger('reset');
+        });
+        return false;
+    });
+
+function validateForms(form){
+        $(form).validate({
+            rules: {
+                name: {
+                    required: true,
+                    minlength: 2
+                },
+                phone: "required",
+                email: {
+                    required: true,
+                    email: true
+                }
+            },
+            messages: {
+                name: {
+                    required: "Пожалуйста, введите свое имя",
+                    minlength: jQuery.validator.format("Введите {0} символа!")
+                  },
+                phone: "Пожалуйста, введите свой номер телефона",
+                email: {
+                  required: "Пожалуйста, введите свою почту",
+                  email: "Неправильно введен адрес почты"
+                }
+            }
+        });
+    };
+
+
+    validateForms('#consultation form');
+
+    $('input[name=phone]').mask("+3 (8099) 999-99-99");
 
 });
 
